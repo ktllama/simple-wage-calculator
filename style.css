@@ -1,0 +1,101 @@
+.box{
+    background-color: pink;
+    width:50%;
+    margin:auto;
+    text-align: center;
+    padding:1.5rem;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+
+}
+
+.headbox{
+    color:pink;
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    padding:3rem;
+    text-align:center;
+    margin:auto;
+}
+
+
+button{
+    padding:.5rem;
+    margin-top: 1rem;
+    background-color:pink;
+    border: white 3px solid;
+    color:white;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 10px;
+
+}
+
+button:hover{
+    background-color: white;
+    color:pink;
+}
+
+input{
+    padding:.5rem;
+    border-radius: 10px;
+}
+
+.answer{
+    border: pink 4px solid;
+    width:20%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:auto;
+    margin-top:2rem;
+    color:palevioletred
+}
+
+.hours{
+    border: white 3px solid;
+    padding:1rem;
+    width:50%;
+    margin:auto auto 1rem;
+    border-radius: 10px;
+}
+
+.pay{
+    border: white 3px solid;
+    padding:1rem;
+    width:50%;
+    margin:auto;
+    border-radius: 10px;
+
+}
+
+@media only screen and (max-width: 750px) {
+    input{
+        width:30%;
+    }
+
+    .answer{
+        padding:1rem;
+        width:70%;
+    }
+
+    .hours.pay{
+        width:90%;
+    }
+
+    .box{
+        background-color: pink;
+        width:85%;
+        margin:auto;
+        text-align: center;
+        padding:1.5rem;
+        color:white;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 10px;
+    
+    }
+
+
+
+
+  }
