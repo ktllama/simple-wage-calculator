@@ -10,14 +10,28 @@
 
 }
 
-.headbox{
-    color:pink;
-    font-family:Arial, Helvetica, sans-serif;
-    text-transform: uppercase;
-    padding:3rem;
-    text-align:center;
+.header{
+    width:50%;
+    display:block;
     margin:auto;
 }
+
+.title{
+    font-size: 2rem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:palevioletred
+}
+.pic{
+    width:40%;
+    display:block;
+    margin-bottom:2rem;
+    border-radius: 10px;
+    margin:auto;
+}
+
+
+
 
 
 button{
@@ -41,6 +55,8 @@ input{
     padding:.5rem;
     border-radius: 10px;
 }
+
+
 
 .answer{
     border: pink 4px solid;
@@ -73,6 +89,25 @@ input{
     input{
         width:30%;
     }
+    .header{
+        width:50%;
+        display:block;
+        margin-top:2rem;
+    }
+
+    .title{
+        font-size: 2rem;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color:palevioletred
+    }
+    .pic{
+        width:80%;
+        display:inline-block;
+        margin-bottom:2rem;
+        border-radius: 10px;
+        margin:auto;
+    }
 
     .answer{
         padding:1rem;
@@ -83,10 +118,17 @@ input{
         width:90%;
     }
 
+    .header{
+        display: block;
+        text-align: center;
+
+    }
+
+
     .box{
         background-color: pink;
-        width:85%;
-        margin:auto;
+        width:70%;
+        margin:2rem auto;
         text-align: center;
         padding:1.5rem;
         color:white;
