@@ -1,13 +1,14 @@
+const calc = document.getElementById('button').addEventListener('click', calcPay)
 
-//const hours = document.getElementById("moneyCalc").value;
-
-//const moneyOwed = () => alert(15*hours);
-
-//console.log(moneyOwed(hours));
-
-const cal = () =>{
-    const hours = document.getElementById("moneyCalc").value;
+function calcPay() {
+    let start = document.getElementById("timeStart").value;
+    const end = document.getElementById("timeEnd").value;
     const pay = document.getElementById("pay").value;
-    const owed = (hours*pay);
-    document.getElementById("owed").innerText = owed + "$ please :)";
-}
+
+    const x = start.search(":");
+    start = start.slice(0,x) + start.slice(x+1);
+
+    //const final = ((parseInt(end)-parseInt(start))*parseInt(pay));
+    console.log(start)
+};
+
