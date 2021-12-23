@@ -30,6 +30,8 @@ function calcPay() {
     const total = hours*parseFloat(pay);
     console.log(total);
 
+    document.getElementById("owed").innerHTML = `${total}$ Please :)`;
+
 
 };
 
