@@ -28,9 +28,9 @@ function calcPay() {
     //console.log(hours);
 
     const total = hours*parseFloat(pay);
-    console.log(total);
+    const posTotal =Math.abs(total);
 
-    document.getElementById("owed").innerHTML = `${total}$ Please :)`;
+    document.getElementById("owed").innerHTML = `${posTotal}$ Please :)`;
 
 
 };
